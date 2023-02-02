@@ -132,7 +132,7 @@ body
     border: 2px solid grey;
     border-radius:5px;
     background-color: white;
-    background: linear-gradient(90deg,lightskyblue 27%, blue 33%, cyan 50%, white 66%);
+    background: linear-gradient(90deg,lightskyblue 16%, blue 33%, cyan 66%, white 0 100%);
     color:lightskyblue
 }
 
