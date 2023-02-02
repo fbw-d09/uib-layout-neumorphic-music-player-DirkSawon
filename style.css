@@ -109,6 +109,7 @@ body
     background-size: 100%;
     border-radius:50%;
     box-shadow:  -7px 7px 14px #6a6a6a, 7px -7px 14px #ffffff;
+    font-weight: 400;
 }
 
 .track-title
