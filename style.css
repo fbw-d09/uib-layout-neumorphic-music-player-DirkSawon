@@ -52,7 +52,9 @@ body
     width:50px;
     height:50px;
     /* border:1px solid black; */
-    border-radius:5px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    box-shadow: inset 6px 6px 12px #bcbcbc, inset -6px -6px 12px #eaeaea;
 }
 
 .playlist
@@ -75,6 +77,8 @@ body
     height:50px;
     /* border:1px solid black; */
     border-radius:5px;
+    background: #d3d3d3;
+    box-shadow: inset 6px 6px 12px #bcbcbc, inset -6px -6px 12px #eaeaea;
     color:orangered;
 }
 
@@ -150,7 +154,7 @@ body
     /* border:1px solid black; */
     justify-content:space-between;
     align-items:center;
-    margin-top:25px;
+    margin-top:50px;
     margin-bottom:50px;
 }
 
@@ -162,7 +166,10 @@ body
     width:50px;
     height:50px;
     /* border:1px solid black; */
-    border-radius:5px;
+    border-radius: 10px;
+background: #d3d3d3;
+box-shadow:  -5px 5px 10px #b3b3b3,
+             5px -5px 10px #f3f3f3;
 }
 
 .play
@@ -173,8 +180,10 @@ body
     width:50px;
     height:50px;
     /* border:1px solid black; */
-    border-radius:5px;
     color:cyan;
+    border-radius: 10px;
+    background: #d3d3d3;
+    box-shadow: inset -6px 6px 12px #bcbcbc, inset 6px -6px 12px #eaeaea;
 }
 
 .forewind
@@ -185,14 +194,17 @@ body
     width:50px;
     height:50px;
     /* border:1px solid black; */
-    border-radius:5px;
+    border-radius: 10px;
+    background: #d3d3d3;
+    box-shadow:  -5px 5px 10px #b3b3b3, 5px -5px 10px #f3f3f3;
 }
 
 .carving
 {
-    border:1px solid black;
+    /* border:1px solid black; */
     height:5px;
     width: 180px;
     border-radius: 2px;
-    background:linear-gradient(0deg, lightgray 50%, grey), linear-gradient(90deg, white 90%, grey);
+    background: #d3d3d3;
+    box-shadow: inset -1px 1px 2px #6a6a6a, inset 1px -1px 2px #ffffff;
 }
