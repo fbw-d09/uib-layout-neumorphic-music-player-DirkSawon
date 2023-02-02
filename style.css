@@ -1,0 +1,162 @@
+*
+{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container
+{
+    display:flex;
+    width:608px;
+    height:784px;
+    border:1px solid black;
+    background-color: white;
+    justify-content:center;
+    align-items: center;
+}
+
+.player
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:400px;
+    height:700px;
+    background-color:lightgray;
+    border-radius:10px;
+    box-shadow: 10px 10px 30px grey;
+}
+
+.head
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid black;
+    width:400px;
+    height:60px;
+}
+
+.search
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:50px;
+    height:50px;
+    border:1px solid black;
+    border-radius:5px;
+}
+
+.playlist
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 50px;
+    border:1px solid black; 
+}
+
+.power
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:50px;
+    height:50px;
+    border:1px solid black;
+    border-radius:5px;
+}
+
+.body
+{
+    display:flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items:center;
+    width:400px;
+    height: 400px;
+    border:1px solid red;
+}
+
+.track
+{
+    /* border: 1px solid black; */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./assets/track-image.jpeg);
+    width:300px;
+    height:300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius:50%;
+    box-shadow: -10px 10px 10px grey;
+}
+
+.track-title
+{
+    display:flex;
+    width:400px;
+    border:1px solid black;
+    justify-content:center;
+}
+
+.artist
+{
+    display:flex;
+    width:400px;
+    border:1px solid black;
+    justify-content: center;
+    color:grey;
+    font-weight:bold;
+}
+
+.time
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:300px;
+    height:10px;
+    border: 2px solid grey;
+    border-radius:5px;
+    background-color: white;
+    background: linear-gradient(90deg,lightskyblue 27%, blue 33%, cyan 50%, white 66%);
+    color:lightskyblue
+}
+
+.buttons
+{
+
+}
+
+.rewind
+{
+
+}
+
+.play
+{
+
+}
+
+.forewind
+{
+
+}
+
+.carving
+{
+
+}
