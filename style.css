@@ -106,8 +106,7 @@ body
     background-repeat: no-repeat;
     background-size: 100%;
     border-radius:50%;
-    box-shadow: -5px 5px 10px grey;
-    /* box-shadow: 10px -10px 50px white; */
+    box-shadow:  -7px 7px 14px #6a6a6a, 7px -7px 14px #ffffff;
 }
 
 .track-title
